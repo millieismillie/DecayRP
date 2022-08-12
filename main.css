@@ -23,6 +23,27 @@
 font-family: "barrack";
 }
 
+#logo {
+	max-width: 20%;
+}
+
+/* Responsive logo*/
+@media screen and (max-width: 768px) {
+	#logo {
+		max-width: 40%;
+	}
+}
+
+#eventImage  {
+	width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+	#eventImage {
+		width: 50%;
+	}
+}
+
 /*Structural properties*/
 #rcorners{
 	text-allign: center;
@@ -30,8 +51,15 @@ font-family: "barrack";
 	border: 2px solid #766990;
 	padding: 20px;
 	width: 70%;
-	height:80%;
+	height: 85%;
 	background: rgba(0,0,0,0.8);
+}
+
+/*Rcorners responsive*/
+@media screen and (max-width: 600px) {
+	#rcorners {
+		width: 100%;
+	}
 }
 
 #rcorners1{
@@ -59,15 +87,6 @@ body {
 	background-repeat: no-repeat;
     	background-size: auto;
 	color: #766990;
-}
-
-header {
-	margin:	10px 0 0;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: #c1afaf;
 }
 
 #opacity-reset {
